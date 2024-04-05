@@ -25,6 +25,8 @@ const Index = ({ configData, productDetailsData, landingPageData }) => {
           let tempData={
             ...isExist,store_details:productDetailsData?.store_details
           }
+
+          
           setProductDetails([tempData]);
         } else {
           setProductDetails([productDetailsData]);
