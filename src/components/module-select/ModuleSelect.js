@@ -70,6 +70,7 @@ const ModuleSelect = ({
         zoneWiseModule?.(data)?.map((item, index) => {
           return (
                           <ModuleContainer
+                          key={index}
                 selected={
                   item?.module_type === selectedModule?.module_type &&
                   item?.id === selectedModule?.id
